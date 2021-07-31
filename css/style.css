@@ -54,9 +54,21 @@ a{
   height: 3px;
   background-color: #000;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: all .5s ease-in-out;
 }
 .menu__btn + .menu__btn{
   margin-top: 8px;
+}
+.header__menu-btn.open .menu__btn-up{
+  transform: rotate(45deg) translate(9px, 6px);
+}
+.header__menu-btn.open .menu__btn-middle{
+  transform: translate(-50px);
+  background-color: transparent;
+  box-shadow: none;
+}
+.header__menu-btn.open .menu__btn-down{
+  transform: rotate(-45deg) translate(9px, -6px);
 }
 .menu,
 .user__menu{
