@@ -142,7 +142,7 @@ top: 105px;
 right: 50%;
 max-width: 800px;
 width: 100%;
-padding: 0 10px;
+margin: 0 10px;
 transform: translateX(50%);
 }
 .header__reserch input{
