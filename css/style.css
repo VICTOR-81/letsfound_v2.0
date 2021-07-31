@@ -60,7 +60,8 @@ a{
   margin-top: 8px;
 }
 .header__menu-btn.open .menu__btn-up{
-  transform: rotate(45deg) translate(9px, 6px);
+  transform: rotate(45deg) translate(9px, 7px);
+  border-radius: 3px;
 }
 .header__menu-btn.open .menu__btn-middle{
   transform: translate(-50px);
@@ -69,6 +70,7 @@ a{
 }
 .header__menu-btn.open .menu__btn-down{
   transform: rotate(-45deg) translate(9px, -6px);
+  border-radius: 3px;
 }
 .menu,
 .user__menu{
@@ -249,4 +251,31 @@ transform: translateX(50%);
   border-radius: 50%;
   overflow: hidden;
   margin-left: 7px;
+}
+
+
+.byproject{
+  text-align: center;
+}
+.byproject a{
+  display: inline-block;
+  max-width: 1850px;
+  width: 100%;
+  padding: 0 20px;
+}
+.byproject img{
+  width: 100%;
+}
+.byproject__info{
+  padding: 0 70px;
+}
+.byproject h3{
+  font-size: 100px;
+  line-height: 122px;
+  margin-bottom: 40px;
+}
+.byproject p{
+  font-size: 50px;
+  line-height: 61px;
+  margin-bottom: 70px;
 }
